@@ -24,6 +24,10 @@ public class ServletDemo04 extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         response.setContentType("text/html; charset=utf-8");
 
+        String name = request.getParameter("name");
+        String age = request.getParameter("age");
+        System.out.println(name + age);
+
         response.getWriter().write("给你一份数据");
     }
 }
