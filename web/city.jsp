@@ -11,7 +11,8 @@
     <title>Title</title>
 
     <script type="text/javascript" src="jquery-3.2.1/jquery-3.2.1.js"></script>
-    <script type="text/javascript" src="js/city.js"></script>
+    <%--<script type="text/javascript" src="js/city.js"></script>--%>
+    <script type="text/javascript" src="js/city_json.js"></script>
 </head>
 <body>
 省份: <select name="province" id="province">
